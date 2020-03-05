@@ -11,6 +11,7 @@ apiServer.listen(SERVER_PORT, function(err){
 	} else {
 		console.info("Listening on %s.", apiServer.url);
 
-		apiServer.io.disable('browser client');
+		// apiServer.
+		// apiServer.io.disable('browser client');
 	}
 });
